@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code Companion - Forms</title>
+    <meta charset="utf-8">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" 
+        rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="fade-in">
+    <img src="http://www.pngnames.com/files/5/Pokemon-Logo-PNG-Photo-Background.png"
+        alt="Pokemon logo" width="300" height="200">
+    </div>
+
+   <form id="pokedex">
+    <p>Pokemon name:</p>
+    <div class="searchField">
+        <input type="text" name="pokemon">
+    </div>
+
+    <p>Description:</p>
+    <div class="dField">
+        <textarea name="description" rows="15" cols="25"></textarea>
+    </div>
+
+    <br>
+
+    <div class= submitButton>
+        <button type="submit">Add to Pokedex</button>
+    </div>
+   </form>
+
+   <h2>Pokemon:</h2>
+
+   <div id="pokemon-list"></div>
+  </body>
+</html>
